@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './i18n/LanguageContext';
 import { Layout } from './components/layout/Layout';
 import { HomePage } from './pages/HomePage';
@@ -21,7 +21,7 @@ import { NotFoundPage } from './pages/NotFoundPage';
 export default function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter>
+      <HashRouter>
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -36,7 +36,7 @@ export default function App() {
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Layout>
-      </BrowserRouter>
+      </HashRouter>
     </LanguageProvider>
   );
 }

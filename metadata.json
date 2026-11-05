@@ -1,0 +1,6 @@
+{
+  "name": "IOT Communication — Technology & Creative Studio",
+  "description": "IOT Communication - Kiến tạo công nghệ. Kết nối giá trị. Giải pháp phát triển phần mềm, nền tảng số, GIS bản đồ số và truyền thông sáng tạo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
